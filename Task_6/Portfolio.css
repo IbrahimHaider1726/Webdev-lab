@@ -1,0 +1,67 @@
+/* General Reset /
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling /
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/ Header /
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/ Class and ID Selectors /
+#main-title {
+    font-size: 2em;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+/ Section Styling /
+.about, .projects {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/ Project Cards with Float /
+.project-card {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+/ Clearfix /
+.projects::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/ Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
